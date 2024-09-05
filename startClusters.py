@@ -112,7 +112,6 @@ while True:
 
     for cluster in current_state:
 
-        print(cluster['name'],cluster['status'])
 
         if cluster['name'] in clusters_to_start and cluster['status'] == 'on':
 
