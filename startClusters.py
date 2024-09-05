@@ -97,7 +97,6 @@ for cluster_name in clusters_to_start:
             print(c.start_resource(cluster['id']))
         else:
             print(cluster_name, "already running...")
-            sys.exit(0)
     else:
         print("No cluster found.")
         sys.exit(1)
